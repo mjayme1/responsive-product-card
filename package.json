@@ -1,0 +1,16 @@
+{
+  "name": "responsive-product-card",
+  "version": "1.0.0",
+  "description": "A responsive product card built with HTML, CSS/SCSS, and JavaScript. Features include item display, add to cart functionality with counter, and mobile-responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass css/styles.scss css/styles.css --watch",
+    "sass:build": "sass css/styles.scss css/styles.css --style compressed"
+  },
+  "keywords": ["responsive", "product-card", "frontend", "css", "scss", "javascript", "html"],
+  "author": "Marjorie Jayme",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.91.0"
+  }
+}
